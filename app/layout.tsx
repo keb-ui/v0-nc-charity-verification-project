@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'NC Charity Verification Project',
   description: 'A student-led initiative helping individuals identify trustworthy and legitimate charities across North Carolina.',
   verification: {
-    google: 'bGsHtIT2IfgrHaVYm-MP_bv-tZCMd-ovIotUIZz0PYY',
+    google: 'ceYuPw4JbNqPh-pxdi6EBdyBrSUrr-C7NvJlWtd-CuQ',
   },
   icons: {
     icon: [
