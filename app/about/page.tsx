@@ -39,8 +39,8 @@ export default function AboutPage() {
             <div className="flex-1">
               <div className="relative h-[400px] w-full overflow-hidden">
                 <Image
-                  src="/images/community-circle.png"
-                  alt="Community coming together"
+                  src="/images/open-hands-reaching.png"
+                  alt="Open hands reaching out together in community"
                   fill
                   className="object-cover"
                 />
@@ -99,9 +99,20 @@ export default function AboutPage() {
       <section className="py-16 px-6 md:px-12 lg:px-20">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">About Us </h2>
-          <p className="text-muted-foreground leading-relaxed mb-12">
-            {"The NC Charity Verification Project was founded by Hedayat Sarwar.\n\nThe idea behind this project was, to begin with, a personal one.\n\nA very good friend of mine once donated money to a charity that appeared to be genuine. The website was very well designed, the narrative was very convincing, and the cause was real. They thought by donating they could help, but we later found out the charity was a fraud. It wasn't just the money that was lost — what hurt most was knowing they couldn't help the people who truly needed it.\n\nAt the time I was a student at Wake Tech Community College, thinking about how many people I wanted to help but didn't know how.\n\nConversations, brainstorming, and countless months of building and researching online charities led to what you're seeing right now — a dream of making my community better in any way I can."}
-          </p>
+          <div className="text-muted-foreground leading-relaxed mb-12 text-left max-w-2xl mx-auto flex flex-col gap-4">
+            <p>
+              I started the NC Charity Verification Project because of something that stuck with me. A close friend of mine donated to a charity that looked completely real. The website looked good, the story sounded legit, and the cause mattered to them. Later we found out it was fake.
+            </p>
+            <p>
+              The money was gone. That part was frustrating, but what really bothered me was that the people who needed help got nothing. It felt pointless.
+            </p>
+            <p>
+              At the time I was lost and honestly didn't know what I could do to make any real difference. I was in community college at the time. I just kept thinking about how easy it was to fake a charity online — anyone could fall for it. I started looking into how to check if charities were real and talking to friends about it when donations came up.
+            </p>
+            <p>
+              One thing led to another and that's how the project started. It wasn't meant to be big or impressive — I just wanted to build something that could help people avoid the same mistake my friend fell for.
+            </p>
+          </div>
           <div className="flex justify-center">
             <div className="bg-secondary p-8 max-w-sm w-full">
               <div className="w-16 h-16 bg-primary/20 flex items-center justify-center mx-auto mb-4">
