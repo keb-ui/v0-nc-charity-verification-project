@@ -18,7 +18,7 @@ export default function ContactPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Open email client with pre-filled information
-    const mailtoLink = `mailto:seanfazel@gmail.com?subject=${encodeURIComponent(formData.subject || "Contact from NC Charity Verification")}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`)}`
+    const mailtoLink = `mailto:hedayatsarwar@icloud.com?subject=${encodeURIComponent(formData.subject || "Contact from NC Charity Verification")}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`)}`
     window.location.href = mailtoLink
     setSubmitted(true)
   }
@@ -66,8 +66,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                    <a href="mailto:seanfazel@gmail.com" className="text-muted-foreground text-sm hover:text-primary transition-colors">
-                      seanfazel@gmail.com
+                    <a href="mailto:hedayatsarwar@icloud.com" className="text-muted-foreground text-sm hover:text-primary transition-colors">
+                      hedayatsarwar@icloud.com
                     </a>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ export default function ContactPage() {
                   </div>
                   <h2 className="text-xl font-bold text-foreground mb-2">Email Client Opened</h2>
                   <p className="text-muted-foreground mb-6">
-                    Your email client should have opened with the message pre-filled. If not, please email us directly at seanfazel@gmail.com.
+                    Your email client should have opened with the message pre-filled. If not, please email us directly at hedayatsarwar@icloud.com.
                   </p>
                   <button
                     onClick={() => setSubmitted(false)}

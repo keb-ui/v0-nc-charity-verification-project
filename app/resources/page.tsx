@@ -172,7 +172,7 @@ export default function ResourcesPage() {
             <div className="border-b border-border pb-6">
               <h3 className="font-semibold text-foreground mb-2">Can I suggest a charity for verification?</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Yes! We welcome suggestions from the community. Please contact us at seanfazel@gmail.com with the charity name and any information you have about the organization.
+                Yes! We welcome suggestions from the community. Please contact us at hedayatsarwar@icloud.com with the charity name and any information you have about the organization.
               </p>
             </div>
             <div className="border-b border-border pb-6">

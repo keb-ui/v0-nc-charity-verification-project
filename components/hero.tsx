@@ -19,9 +19,9 @@ export default function Hero() {
       <Header />
       <motion.div style={{ y }} className="relative h-full">
         <Image
-          src="/images/community-circle.png"
+          src="/images/nc-mountain-landscape.png"
           fill
-          alt="Community members forming a circle on grass"
+          alt="Aerial view of North Carolina mountain landscape"
           style={{ objectFit: "cover" }}
           priority
         />

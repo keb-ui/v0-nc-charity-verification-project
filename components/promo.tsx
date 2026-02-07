@@ -31,9 +31,9 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <Image 
-            src="/images/hands-unity.png" 
+            src="/images/community-hands-unity.png" 
             fill 
-            alt="Hands joined together in unity with sunset" 
+            alt="Community hands together in unity" 
             style={{ objectFit: "cover" }} 
           />
           <div className="absolute inset-0 bg-foreground/70" />

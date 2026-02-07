@@ -20,12 +20,12 @@ export default function Footer() {
                     <span className="text-lg font-semibold">NC Charity Verification</span>
                   </div>
                   <p className="text-white/70 text-sm leading-relaxed mb-6">
-                    A student led initiative promoting transparency and trust in charitable giving across North Carolina. Founded by Sean Fazel, with operations and research support led by Hedayat Sarwar.                           
+                    A student-led initiative promoting transparency and trust in charitable giving across North Carolina. Founded by Hedayat Sarwar.                           
                   </p>
                   <div className="flex flex-col gap-2">
                     <div className="flex items-center gap-2 text-white/70 text-sm">
                       <Mail className="w-4 h-4" />
-                      <span>{"seanfazel@gmail.com "}</span>
+                      <span>{"hedayatsarwar@icloud.com"}</span>
                     </div>
                     <div className="flex items-center gap-2 text-white/70 text-sm">
                       <MapPin className="w-4 h-4" />

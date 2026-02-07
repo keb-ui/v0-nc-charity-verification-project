@@ -232,7 +232,7 @@ export default function VerifiedCharities() {
 
         <div className="text-center mt-12">
           <p className="text-sm text-muted-foreground">
-            Know a charity that should be verified? <a href="mailto:seanfazel@gmail.com" className="text-primary hover:underline">Submit for review</a>
+            Know a charity that should be verified? <a href="mailto:hedayatsarwar@icloud.com" className="text-primary hover:underline">Submit for review</a>
           </p>
         </div>
       </div>

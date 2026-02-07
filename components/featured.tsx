@@ -33,7 +33,7 @@ export default function Featured() {
           <div className="flex-1 w-full">
             <div className="relative h-[400px] lg:h-[600px] w-full overflow-hidden">
               <Image
-                src="/images/kids-tree.png"
+                src="/images/kids-climbing-tree.png"
                 alt="Children climbing a tree together"
                 fill
                 className="object-cover"

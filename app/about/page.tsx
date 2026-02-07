@@ -100,24 +100,16 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">About Us </h2>
           <p className="text-muted-foreground leading-relaxed mb-12">
-            {"The NC Charity Verification Project was established by Sean Fazel, who is also the founder and owner. Hedayat Sarwar is the director of operations. \n\nThe idea of this particular project was, to begin with, a personal one.\n\nOne of our very good friends, at one point, donated money to a charity that appeared to be genuine. The website was very well designed, the narrative was very convincing, and the cause was real. They thought by donating they could help but we later found out the charity was a lie, it didn\'t matter that the money was lost. What was more important was that he couldn\'t help the people that needed it. \n\nAt that time we were just two students from wake tech community college talking about how many people we want to help but don\'t know how \n\nLater on Conversations, brainstorming, and countless months of building and researching online charity lead to what you\'re seeing right now. A dream of two college students trying to make their community better any way they can."}
+            {"The NC Charity Verification Project was founded by Hedayat Sarwar.\n\nThe idea behind this project was, to begin with, a personal one.\n\nA very good friend of mine once donated money to a charity that appeared to be genuine. The website was very well designed, the narrative was very convincing, and the cause was real. They thought by donating they could help, but we later found out the charity was a fraud. It wasn't just the money that was lost — what hurt most was knowing they couldn't help the people who truly needed it.\n\nAt the time I was a student at Wake Tech Community College, thinking about how many people I wanted to help but didn't know how.\n\nConversations, brainstorming, and countless months of building and researching online charities led to what you're seeing right now — a dream of making my community better in any way I can."}
           </p>
-          <div className="flex flex-col sm:flex-row gap-8 justify-center">
-            <div className="bg-secondary p-8 flex-1 max-w-sm">
-              <div className="w-16 h-16 bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-1">Sean Fazel</h3>
-              <p className="text-sm text-primary mb-2">Founder</p>
-              <p className="text-sm text-muted-foreground">Leading the mission to promote transparency in charitable giving.</p>
-            </div>
-            <div className="bg-secondary p-8 flex-1 max-w-sm">
+          <div className="flex justify-center">
+            <div className="bg-secondary p-8 max-w-sm w-full">
               <div className="w-16 h-16 bg-primary/20 flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-primary" />
               </div>
               <h3 className="font-semibold text-foreground mb-1">Hedayat Sarwar</h3>
-              <p className="text-sm text-primary mb-2">Operations & Research Lead</p>
-              <p className="text-sm text-muted-foreground">Managing research efforts and operational support for the project.</p>
+              <p className="text-sm text-primary mb-2">Founder & Owner</p>
+              <p className="text-sm text-muted-foreground">Leading the mission to promote transparency in charitable giving across North Carolina.</p>
             </div>
           </div>
         </div>
